@@ -10,7 +10,7 @@ news = ""
 def UpDateNew (request) :
     global news
     news = GetNews()
-    return = HttpResponse ('<br>Update News</br>')
+    return HttpResponse ('<br>Update News</br>')
 
 
 def process(reques , recurso) :
